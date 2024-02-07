@@ -1,0 +1,21 @@
+{
+  "name": "skype",
+  "productName": "Skype",
+  "version": "8.112.0.206",
+  "msixVersion": "15.112.3206.0",
+  "appVersion": "8.112",
+  "appBuild": "206",
+  "cobrand": "0",
+  "app": "s4l",
+  "environment": "",
+  "buildChannel": "production",
+  "main": "main.js",
+  
+  
+  "license": "Copyright: Microsoft 2019",
+  "private": true,
+  "resolutions": {
+    "graceful-fs": "^4.2.4",
+    "msix-utility": "file:./installers/msix-utility"
+  }
+}
